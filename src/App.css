@@ -1,0 +1,12 @@
+main {
+  background: #F5F5F5;
+  height: 100%;
+  border-radius: 1rem;
+}
+
+#root {
+  max-height: 450px;
+  max-width: 450px;
+  height: 100%;
+  width: 100%;
+}
