@@ -1,4 +1,4 @@
-.die-container button {
+.die {
     height: 50px;
     width: 50px;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
@@ -8,6 +8,10 @@
     font-size: 1.75rem;
     font-weight: bold;
     cursor: pointer;
+}
+
+.is-held {
+    background-color: #59E391;
 }
 
 @media (max-width: 600px) {
