@@ -3,6 +3,8 @@
 
 A classic **Tenzies** implementation built entirely by hand with **live scoreboard**, **best-score highlighting**, and a cleaner component structure.
 
+Live Link: https://tenzies-game-by-harshil.vercel.app/
+
 NOTE: Everything in this project is written manually without AI-generated code. The focus was on mastering **state**, **mapping UI from data**, **component composition**, and state-driven UI effects like confetti, roll counters, and best-score logic.
 
 
