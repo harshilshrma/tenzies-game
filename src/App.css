@@ -85,6 +85,10 @@ main {
 }
 
 @media (max-width: 600px) {
+  #root {
+    justify-content: start;
+  }
+
   main {
     gap: 20px;
   }
