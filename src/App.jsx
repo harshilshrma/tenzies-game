@@ -76,7 +76,17 @@ function App() {
     <div className="container">
       {gameWon && <Confetti />}
       <main>
-        <h1 className="title">Tenzies</h1>
+        <div className="title-container">
+          <h1 className="title">Tenzies</h1>
+          <a 
+            href="https://github.com/harshilshrma/tenzies-game" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="github-link"
+          >
+            GitHub
+          </a>
+        </div>
         <p className="instructions">Roll until all dice are the same. Click each die to freeze it at its current value between rolls.</p>
         <div className="die-container">
           {diceElements}
